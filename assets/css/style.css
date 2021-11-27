@@ -5,17 +5,36 @@ h1 {
     color:crimson;
     font-family: 'Volkhov', 'Cardo';
     font-size: 300%;
-    font-weight: 700;
+    font-weight: bold;
     font-style: italic;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 nav {
     text-align: center;
     font-weight: bolder;
     font-size: 150%;
+    word-spacing: 60px;
+    font-family: 'Volkhov', 'Cardo';
+    padding-bottom: 0;
+}
+
+#page-header {
+    background-color: rgb(245, 171, 214);
+    padding: 20px 0 20px 0;
 }
 
 .navigation-bar a {
-    color: forestgreen;
+    color: rgb(35, 165, 35);
 }
+
+/* Home page image styling */
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
