@@ -2,13 +2,20 @@
 
 h1 {
     text-align: center;
-    color:crimson;
-    font-family: 'Volkhov', 'Cardo';
-    font-size: 300%;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 500%;
+    font-family: 'Cardo''Volkhov';
     font-style: italic;
+    color: rgb(204, 26, 26);
     padding: 10px 0 20px 0;
 }
+
+#page-header {
+    background-color: rgb(245, 217, 238);
+    padding: 5px;
+}
+
+/* Navigation bar styling */
 
 nav {
     text-align: center;
@@ -19,13 +26,18 @@ nav {
     padding-bottom: 0;
 }
 
-#page-header {
-    background-color: rgb(245, 171, 214);
-    padding: 20px 0 20px 0;
+.navigation-bar a {
+    color: forestgreen;
+    text-decoration: none;
 }
 
-.navigation-bar a {
-    color: rgb(35, 165, 35);
+a:hover {
+    border-bottom: 2px solid forestgreen;
+    font-style: italic;
+}
+
+.home {
+    border-bottom: 3px solid forestgreen;
 }
 
 /* Home page image styling */
