@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Volkhov:wght@700&display=swap');
 
+.center {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 500%;
+    position: relative; left:35px; top:60px;
+    color:rgb(204, 26, 26);
+}
+
 h1 {
     text-align: center;
     font-weight: 700;
@@ -8,6 +17,7 @@ h1 {
     font-style: italic;
     color: rgb(204, 26, 26);
     padding: 10px 0 20px 0;
+    letter-spacing: 3px;
 }
 
 #page-header {
@@ -24,6 +34,7 @@ nav {
     word-spacing: 60px;
     font-family: 'Volkhov', 'Cardo';
     padding-bottom: 0;
+    position: relative; top:-10px;
 }
 
 .navigation-bar a {
@@ -31,13 +42,19 @@ nav {
     text-decoration: none;
 }
 
-a:hover {
+.home:hover {
     border-bottom: 2px solid forestgreen;
     font-style: italic;
 }
 
-.home {
-    border-bottom: 3px solid forestgreen;
+.crafts:hover {
+    border-bottom: 2px solid forestgreen;
+    font-style: italic;
+}
+
+.contact:hover {
+    border-bottom: 2px solid forestgreen;
+    font-style: italic;
 }
 
 /* Home page image styling */
@@ -54,3 +71,70 @@ a:hover {
   img {
     width: 100%;  
   }
+
+/* About us */
+
+  h2 {
+    text-align: center;
+    color: rgb(10, 139, 133);  
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Cardo''Volkhov';
+  }
+
+  h4 {
+      text-align: center;
+      color: rgb(134, 43, 238);
+      font-family: 'Cardo''Volkhov';
+      font-size: x-large;
+      font-style: italic;
+      font-weight: 900;
+  }
+
+  #about {
+      text-align: center;
+      font-family: 'Cardo''Volkhov';
+      font-size: large;
+      padding: 0 70px 0;
+      max-width: none;
+      position: relative; left:auto;
+
+  }
+
+  /* footer */
+
+footer {
+    height: 150px;
+}  
+
+.social-networks {
+    text-align: center;
+    list-style: none;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;   
+}
+
+#facebook {
+    color: rgb(37, 37, 212);
+}
+
+#twitter {
+    color: rgb(57, 154, 235);
+}
+
+#instagram {
+    color: rgb(241, 106, 208);
+}
+
+#youtube {
+    color: rgb(209, 28, 28);
+}
