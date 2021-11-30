@@ -11,7 +11,7 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
     * The navigation clearly identifies the name of the website and makes the different sections of the website easy to locate. 
     * The navigation bar changes to italics and underlined when hovered over. 
 
-![](images/Navigation.PNG)
+<img src="assets/images/Navigation.PNG" width=200 height=150>
 
     
 
