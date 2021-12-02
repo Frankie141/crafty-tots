@@ -92,14 +92,17 @@ nav {
       font-weight: 900;
   }
 
+  p {
+      color: chocolate;
+  }
+
   #about {
       text-align: center;
+      width: 33%;
+      height: 70px;
+      margin: 0 0 8rem 40rem;
       font-family: 'Cardo''Volkhov';
       font-size: large;
-      padding: 0 70px 0;
-      max-width: none;
-      position: relative; left:auto;
-
   }
 
   /* footer */
