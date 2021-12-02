@@ -4,6 +4,7 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
 The Crafty Tots site contains three menu options such as, Home, Crafts and Contact us. 
 
 ## Features
+
 * Header 
     * The header contains the name of the website Crafty Tots using the color red, 'Cardo' font theme and centered. 
     * A palette symbol has been applied to the top of the header in the color of red and centered. 
@@ -11,6 +12,7 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
 
 <img src="assets/images/Header.PNG" width=250 height=100>    
    
+
 * Navigation
     * Featured at the top of the page underneath the page title, the navigation bar is centered and contains Home, Crafts and Contact us. 
     * These tabs link to the other sections on the Crafty Tots website when selected. 
@@ -21,6 +23,12 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
 
 <img src="assets/images/Navigation.PNG" width=250 height=150>
 
+
+* About Us Section
+    * The About Us section describes what the use of the Crafty Tots website is for. 
+    * The About Us section explains the crafts on the website are for toddlers aged 6 months to 24 months.
+
+<img src="assets/images/About.PNG" width=200 height=200>
     
 
 
