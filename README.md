@@ -3,7 +3,7 @@
 Crafty Tots is a website created to provide parents and caregivers with some fun craft ideas to keep toddlers ages 6 months to 24 months old occupied. These crafts will also help toddlers develop fine motor skills. 
 The Crafty Tots site contains three menu options such as, Home, Crafts and Contact us. 
 
-## Features
+## Home - Features
 
 * Header 
     * The header contains the name of the website Crafty Tots using the color red, 'Cardo' font theme and centered. 
@@ -29,6 +29,13 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
     * The About Us section explains the crafts on the website are for toddlers aged 6 months to 24 months.
 
 <img src="assets/images/About.PNG" width=200 height=200>
+
+* Footer Section 
+    * Background color of light pink added to footer. 
+    * Facebook, Twitter, Instagram and Youtube social media icons open a seperate browser leading to social media pages when clicked. 
+    * Social Media icons given color according to the social media icon color. 
+
+<img src="assets/images/Footer.PNG">    
     
 
 
