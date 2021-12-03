@@ -109,9 +109,9 @@ nav {
 
   /* footer */
 
-footer {
+#footer {
     background-color: rgb(248, 207, 248);
-    margin-top: 18rem;
+    margin-bottom: 0;
 }  
 
 .social-networks {
@@ -144,3 +144,11 @@ footer {
 #youtube {
     color: rgb(209, 28, 28);
 }
+
+/* Crafts tab */
+
+.craft-section {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+}
+
