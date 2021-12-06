@@ -96,7 +96,12 @@ nav {
   p {
       color: chocolate;
       font-weight: bolder;
+      font-size: larger;
   }
+
+.about-us {
+    padding-bottom: 20rem;
+}
 
   #about {
       text-align: center;
@@ -112,7 +117,7 @@ nav {
 
 #footer {
     background-color: rgb(248, 207, 248);
-    margin-bottom: 0;
+    bottom: 0;
 }  
 
 .social-networks {
