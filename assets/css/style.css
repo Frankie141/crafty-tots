@@ -148,9 +148,45 @@ nav {
 
 /* Crafts tab */
 
-.craft-section > div {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
+.top-left {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.bottom-left {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.top-right {
+    margin-top: 15px;
+}
+
+.bottom-right {
+    margin-top: -10px;
+}
+
+#crafts-title {
+    text-align: left;
+    font-family: 'Cardo', Volkhov;
+}
+
+h3 {
+    font-family: 'Cardo', Volkhov;
+    color: crimson;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+}
+
+li {
+    font-family: 'Cardo', Volkhov;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bolder;
+}
