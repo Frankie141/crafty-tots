@@ -35,7 +35,23 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
     * Facebook, Twitter, Instagram and Youtube social media icons open a seperate browser leading to social media pages when clicked. 
     * Social Media icons given color according to the social media icon color. 
 
-<img src="assets/images/Footer.PNG">    
+<img src="assets/images/Footer.PNG" height=200>
+
+
+## Crafts - Features
+
+* Crafts 
+    * Recipes with Supplies required and Instructions. 
+    * Instructional Videos for Edible Playdough and Edible Sand. 
+    * Images for Edible Paints and No-Mess Painting. 
+    * Colors selected contrast well with the other elements of the website. 
+
+Images here 
+
+## Contact - Features 
+
+
+
     
 
 
