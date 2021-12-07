@@ -234,9 +234,24 @@ button[button=submit] {
 /* Media Queries */
 
 /* For small screens max 480px wide and down */
-@media screen and (min-width: 480px) {
+@media screen and (min-device-width: 320px) and (min-device-width: 480px) {
+    h1 {
+        
+    }
+
+    .center {
+        
+    }
+
     #page-header {
-        padding: 5px;
-        margin-top: 0 0 150px 0;
+    
+    }
+
+    nav {
+     
+    }
+
+    #about {
+    
     }
 }
