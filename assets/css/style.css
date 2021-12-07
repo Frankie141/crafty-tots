@@ -96,28 +96,34 @@ nav {
   p {
       color: chocolate;
       font-weight: bolder;
-      font-size: larger;
+      font-size: large;
   }
 
-.about-us {
-    padding-bottom: 20rem;
-}
-
-  #about {
+#about {
       text-align: center;
       width: 33%;
       height: 70px;
       margin: 0 0 8rem 40rem;
-      padding-bottom: 6rem;
+      padding: 20px;
       font-family: 'Cardo', Volkhov;
       font-size: large;
   }
 
   /* footer */
 
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+footer > a {
+    padding: 0 15px;
+}
+
 #footer {
     background-color: rgb(248, 207, 248);
-    bottom: 0;
 }  
 
 .social-networks {
@@ -207,7 +213,7 @@ form {
     font-style: italic;
 }
 
-.contact {
+.contact-us {
     font-family: 'Cardo', Volkhov;
     color: purple;
 }
@@ -219,4 +225,8 @@ input[type=text] {
     border: 2px solid purple;
     border-radius: 4px;
     box-sizing: border-box;
-}    
+}  
+
+button[button=submit] {
+    border: solid purple;
+}
