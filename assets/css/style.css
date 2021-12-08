@@ -174,8 +174,9 @@ footer > a {
     margin-top: -10px;
 }
 
-.top-right {
-    margin-top: 15px;
+.top-right-video {
+    width: 85vh;
+    height: 85vh;
 }
 
 .bottom-right {
