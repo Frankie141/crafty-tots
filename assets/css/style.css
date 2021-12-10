@@ -5,7 +5,9 @@
     display: inline-block;
     width: 100%;
     font-size: 500%;
-    position: relative; left: 20px; top: 90px;   
+    position: relative;
+    left: 20px;
+    top: 90px;
     color: rgb(204, 26, 26);
 }
 
@@ -35,7 +37,8 @@ nav {
     word-spacing: 60px;
     font-family: 'Volkhov', Cardo;
     padding-bottom: 0;
-    position: relative; top:-10px;
+    position: relative;
+    top: -10px;
 }
 
 .navigation-bar a {
@@ -61,55 +64,64 @@ nav {
 /* Home page image styling */
 .row {
     display: flex;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
     flex: 25%;
     padding: 5px;
-  }
+}
 
-  img {
-    width: 100%;  
-  }
+img {
+    width: 100%;
+}
 
 /* About us */
 
-  h2 {
+h2 {
     text-align: center;
-    color: rgb(10, 139, 133);  
+    color: rgb(10, 139, 133);
     font-size: xx-large;
     font-weight: bolder;
     letter-spacing: 1px;
     font-family: 'Cardo', Volkhov;
-  }
+}
 
-  h4 {
-      text-align: center;
-      color: rgb(134, 43, 238);
-      font-family: 'Cardo', Volkhov;
-      font-size: x-large;
-      font-style: italic;
-      font-weight: 900;
-  }
+h4 {
+    text-align: center;
+    color: rgb(134, 43, 238);
+    font-family: 'Cardo', Volkhov;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 900;
+}
 
-  p {
-      color: chocolate;
-      font-weight: bolder;
-      font-size: large;
-  }
+p {
+    color: chocolate;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.about-us {
+    font-family: 'Cardo', Volkhov;
+    font-size: large;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "  h2  "
+                         "  h4  "
+                         "  p  "
+                         "  p  ";
+    grid-template-rows: 3fr;                     
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-column-start: 2;                           
+}
 
 #about {
-      text-align: center;
-      width: 33%;
-      height: 70px;      
-      margin: 0 0 26rem 40rem;
-      padding: 20px;
-      font-family: 'Cardo', Volkhov;
-      font-size: large;
-  }
+    grid-column-start: 2
 
-  /* footer */
+}
+
+/* footer */
 
 footer {
     position: relative;
@@ -118,27 +130,27 @@ footer {
     width: 100%;
 }
 
-footer > a {
+footer>a {
     padding: 0 15px;
 }
 
 #footer {
     background-color: rgb(248, 207, 248);
-}  
+}
 
 .social-networks {
     text-align: center;
     list-style: none;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
 .social-networks i {
     font-size: 180%;
     margin: 1%;
-    padding: 5%;   
+    padding: 5%;
 }
 
 #facebook {
@@ -226,7 +238,7 @@ input[type=text] {
     border: 2px solid purple;
     border-radius: 4px;
     box-sizing: border-box;
-}  
+}
 
 button[button=submit] {
     border: solid purple;
@@ -235,6 +247,4 @@ button[button=submit] {
 /* Media Queries */
 
 /* For small screens max 768px wide and down */
-@media screen and (min-width: 320px) and (max-width: 768px) {
-
-}
+@media screen and (min-width: 320px) and (max-width: 768px) {}
