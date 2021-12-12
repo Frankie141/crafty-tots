@@ -68,7 +68,6 @@ nav {
     display: flex;
 }
 
-/* Create three equal columns that sits next to each other */
 .column {
     flex: 25%;
     padding: 5px;
@@ -266,5 +265,13 @@ button[button=submit] {
 
     #page-header {
         height: auto;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: none;
     }
 }
