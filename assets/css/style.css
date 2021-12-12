@@ -33,13 +33,14 @@ h1 {
 
 nav {
     text-align: center;
+    vertical-align: super;
     font-weight: bolder;
     font-size: 150%;
     word-spacing: 60px;
     font-family: 'Volkhov', Cardo;
     padding-bottom: 0;
     position: relative;
-    top: -10px;
+    top: -30px;
 }
 
 .navigation-bar a {
