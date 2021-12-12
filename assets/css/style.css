@@ -260,4 +260,11 @@ button[button=submit] {
         top: 2vh;
     }
 
+    nav {
+        font-size: 110%;
+    }
+
+    #page-header {
+        height: auto;
+    }
 }
