@@ -172,40 +172,28 @@ footer>a {
 
 .grid {
     display: grid;
-    grid-area: Section;
-    grid-template-areas: " sect1  sect2 "
-        " sect3 sect4 ";
-    grid-template-columns: 25% 50% 25% 50% 125%;
-    grid-template-rows: auto auto;
+    grid-template-areas: "sect1 sect1 sect2 sect2"
+        "sect3 sect3 sect4 sect4";
+    gap: 10px;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    inline-size: 500px;
 }    
 
-.grid {
-    grid-column-start: 2;
-    grid-column-end: 4;
+.sect1 {
+    grid-area: sect1;
 }
 
-.top-left {
-    margin-left: 15px;
-    margin-top: 15px;
+.sect2 {
+    grid-area: sect2;
 }
 
-.top-right {
-    margin-left: 15px;
-    margin-top: 15px;
+.sect3 {
+    grid-area: sect3;
 }
 
-.top-right-video {
-    width: 35%;
-    height: 40%;
-}
-
-.bottom-left {
-    margin-left: 15px;
-    margin-top: -10px;
-}
-
-.bottom-right {
-    margin-top: -10px;
+.sect4 {
+    grid-area: sect4;
 }
 
 #crafts-title {
