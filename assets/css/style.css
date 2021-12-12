@@ -7,18 +7,19 @@
     font-size: 500%;
     position: relative;
     left: 20px;
-    top: 90px;
+    top: 40px;
     color: rgb(204, 26, 26);
 }
 
 h1 {
     text-align: center;
+    vertical-align: super;
+    margin-top: auto;
     font-weight: 700;
     font-size: 500%;
     font-family: 'Cardo', Volkhov;
     font-style: italic;
     color: rgb(204, 26, 26);
-    padding: 10px 0 20px 0;
     letter-spacing: 3px;
 }
 
