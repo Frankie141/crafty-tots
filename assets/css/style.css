@@ -196,7 +196,7 @@ footer>a {
     grid-area: sect4;
 }
 
-#crafts-title {
+.crafts-title {
     text-align: left;
     font-family: 'Cardo', Volkhov;
 }
