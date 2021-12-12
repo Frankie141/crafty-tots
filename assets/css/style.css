@@ -109,17 +109,15 @@ p {
     text-align: center;
     display: grid;
     grid-template-areas: "  h2  "
-                         "  h4  "
-                         "  p  "
-                         "  p  ";
-    grid-template-rows: 3fr;                     
+        "  h4  "
+        "  p  "
+        "  p  ";
+    grid-template-rows: 3fr;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-column-start: 2;                           
 }
 
 #about {
-    grid-column-start: 2
-
+    grid-column-start: 2;
 }
 
 /* footer */
@@ -174,7 +172,16 @@ footer>a {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-area: Section;
+    grid-template-areas: " sect1  sect2 "
+        " sect3 sect4 ";
+    grid-template-columns: 25% 50% 25% 50% 125%;
+    grid-template-rows: auto auto;
+}    
+
+.grid {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .top-left {
@@ -182,14 +189,19 @@ footer>a {
     margin-top: 15px;
 }
 
-.bottom-left {
+.top-right {
     margin-left: 15px;
-    margin-top: -10px;
+    margin-top: 15px;
 }
 
 .top-right-video {
-    width: 85vh;
-    height: 85vh;
+    width: 35%;
+    height: 40%;
+}
+
+.bottom-left {
+    margin-left: 15px;
+    margin-top: -10px;
 }
 
 .bottom-right {
