@@ -220,6 +220,16 @@ li {
     font-weight: bolder;
 }
 
+#top-right-video {
+    width: 50%;
+    height: 66%;
+}
+
+#bottom-right-video {
+    width: 50%;
+    height: 66%;
+}
+
 /* Contact page */
 
 form {
