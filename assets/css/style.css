@@ -244,6 +244,7 @@ form {
 .contact-us {
     font-family: 'Cardo', Volkhov;
     color: purple;
+    text-align: center;
 }
 
 input[type=text] {
