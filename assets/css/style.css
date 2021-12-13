@@ -177,7 +177,7 @@ footer>a {
         ". sect3 . sect4 .";
     gap: 10px;    
     grid-template-columns: 3rem 2fr 3rem 2fr 3rem;
-    grid-template-rows: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 3fr);
 }  
 
 .grid {
