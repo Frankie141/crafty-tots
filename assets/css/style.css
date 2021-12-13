@@ -130,7 +130,7 @@ footer {
 }
 
 footer>a {
-    padding: 0 15px;
+    padding: 0 10rem;
 }
 
 #footer {
@@ -172,13 +172,17 @@ footer>a {
 
 .grid {
     display: grid;
-    grid-template-areas: "sect1 sect1 sect2 sect2"
-        "sect3 sect3 sect4 sect4";
+    grid-template-areas:
+        ". sect1 . sect2 ."
+        ". sect3 . sect4 .";
     gap: 10px;    
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 100px);
-    inline-size: 500px;
-}    
+    grid-template-columns: 3rem 2fr 3rem 2fr 3rem;
+    grid-template-rows: repeat(2, 2fr);
+}  
+
+.grid {
+    grid-column-start: 2;
+}
 
 .sect1 {
     grid-area: sect1;
