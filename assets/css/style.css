@@ -233,7 +233,6 @@ li {
 /* Contact page */
 
 form {
-    margin-left: 45%;
     color: purple;
     font-size: large;
     font-weight: bolder;
@@ -248,7 +247,7 @@ form {
 }
 
 input[type=text] {
-    width: 40%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 2px solid purple;
