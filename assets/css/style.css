@@ -342,4 +342,30 @@ button[button=submit] {
     #img1 {
         display: none;
     }
+
+    .about-us {
+        display: grid;
+        grid-template-areas: ". h2 ."
+            ". h4 ."
+            ". p ."
+            ". p .";
+        grid-template-columns: 15% 3fr 15%;
+        grid-template-rows: 2fr;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas:
+            ". sect1 ."
+            ". sect2 ."
+            ". sect3 ."
+            ". sect4 .";
+        gap: 10px;    
+        grid-template-columns: 3rem 2fr 3rem;
+        grid-template-rows: 2fr;
+    }  
+    
+    .grid {
+        grid-column-start: 2;
+    }
 }
