@@ -29,15 +29,15 @@
     <section>
         <h2 class="contact-us">Contact Us</h2>
         <form action="thanks.html">
-            <label for="name">Name</label>
-            <label for="fname">First Name:</label>
-            <input id="fname" type="text" required>
-            <label for="lname">Last Name:</label>
+            <label for="name" id="name">Name</label>
+            <input id="fname" type="text" class="first-name" required>
             <input id="lname" type="text" required>
+            <label for="fname">First Name:</label>
+            <label for="lname">Last Name:</label>
             <label for="email">Email Address:</label>
             <input id="email" type="text" required>
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="12" cols="50">Message</textarea>
+            <textarea id="message" name="message" rows="12" cols="50" required>Message</textarea>
             <button type="submit">Submit</button>
         </form>
     </section>
