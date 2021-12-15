@@ -44,11 +44,21 @@ The Crafty Tots site contains three menu options such as, Home, Crafts and Conta
     * Recipes with Supplies required and Instructions. 
     * Instructional Videos for Edible Playdough and Edible Sand. 
     * Images for Edible Paints and No-Mess Painting. 
-    * Colors selected contrast well with the other elements of the website. 
+    * Colors selected contrasts well with the other elements of the website. 
 
-Images here 
+<img src="assets/images/Craft.page.PNG" height=400>
 
-## Contact - Features 
+## Contact Page- Features 
+
+* Contact 
+    * Purple Border around input field for first name, last name, email address and message. 
+    * Writing in input fields resets when text is typed into boxes.
+    * Submit button is purple with write writing. 
+    * wWhen the submit button is hovered over the box is highlighted in a lighter purple and the cursor changes. 
+    * Once form is submitted you are than redirected to a thank you page. 
+
+<img src="assets/images/Contact.Us.PNG" height=250 width=200>    
+<img src="assets/images/Thank.You.PNG" height=200 width=300>
 
 
 
