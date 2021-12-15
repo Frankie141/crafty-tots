@@ -175,10 +175,10 @@ footer>a {
     grid-template-areas:
         ". sect1 . sect2 ."
         ". sect3 . sect4 .";
-    gap: 10px;    
+    gap: 10px;
     grid-template-columns: 3rem 2fr 3rem 2fr 3rem;
     grid-template-rows: 2fr 40%;
-}  
+}
 
 .grid {
     grid-column-start: 2;
@@ -267,7 +267,7 @@ input[type=text] {
 
 input[type=text]:focus {
     outline: none;
-} 
+}
 
 #button:hover {
     background-color: rgba(208, 69, 236, 0.849);
@@ -327,7 +327,7 @@ section {
     h1 {
         font-weight: 500;
         font-size: 300%;
-    } 
+    }
 
     .center {
         font-size: 380%;
@@ -369,11 +369,11 @@ section {
             ". sect2 ."
             ". sect3 ."
             ". sect4 .";
-        gap: 10px;    
+        gap: 10px;
         grid-template-columns: 3rem 2fr 3rem;
         grid-template-rows: 2fr;
-    }  
-    
+    }
+
     .grid {
         grid-column-start: 2;
     }
@@ -429,11 +429,11 @@ section {
             ". sect2 ."
             ". sect3 ."
             ". sect4 .";
-        gap: 10px;    
+        gap: 10px;
         grid-template-columns: 3rem 2fr 3rem;
         grid-template-rows: 2fr;
-    }  
-    
+    }
+
     .grid {
         grid-column-start: 2;
     }
