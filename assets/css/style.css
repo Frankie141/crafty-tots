@@ -340,6 +340,8 @@ section {
 
     #page-header {
         height: auto;
+        width: auto;
+        margin: auto;
     }
 
     #img1 {
@@ -374,6 +376,12 @@ section {
     
     .grid {
         grid-column-start: 2;
+    }
+
+    #footer {
+        width: auto;
+        height: 50%;
+        margin: auto;
     }
 }
 
