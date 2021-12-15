@@ -316,6 +316,10 @@ input[type=text]:focus {
     text-align: center;
 }
 
+section {
+    padding: 8% 0;
+}
+
 /* Media Queries */
 
 /* For small screens min 320px max 480px wide and down */
