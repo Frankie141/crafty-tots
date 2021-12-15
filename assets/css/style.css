@@ -302,6 +302,20 @@ input[type=text]:focus {
     outline: none;
 }
 
+/* Thank you page for submitted contact us */
+
+.thank-you {
+    font-family: 'Cardo', Volkhov;
+    font-style: italic;
+    color: purple;
+    text-align: center;
+}
+
+.thank-you-message {
+    font-family: 'Cardo', Volkhov;
+    text-align: center;
+}
+
 /* Media Queries */
 
 /* For small screens min 320px max 480px wide and down */
