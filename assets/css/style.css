@@ -122,8 +122,6 @@ p {
     grid-column-start: 2;
 }
 
-/* Footer */
-
 /* Styling of Thank you page footer */
 
 #page-container {
@@ -140,6 +138,8 @@ footer {
     right: 0;
     width: 100%;
 }
+
+/* Footer */
 
 footer>a {
     padding: 0 10rem;
@@ -183,7 +183,7 @@ footer>a {
     color: rgb(209, 28, 28);
 }
 
-/* Crafts tab */
+/* Crafts */
 
 .grid {
     display: grid;
@@ -245,7 +245,7 @@ li {
     height: 66%;
 }
 
-/* Contact page */
+/* Contact */
 
 form {
     color: purple;
@@ -504,5 +504,4 @@ input[type=text]:focus {
     .contact-us-message {
         padding: 25% 0 35% 0;
     }
-
 }
