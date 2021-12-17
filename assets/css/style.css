@@ -235,6 +235,14 @@ li {
     font-weight: bolder;
 }
 
+#top-left-image {
+    width: 50%;
+}
+
+#bottom-left-image {
+    width: 50%;
+}
+
 #top-right-video {
     width: 50%;
     height: 66%;
