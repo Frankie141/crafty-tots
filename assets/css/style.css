@@ -500,4 +500,9 @@ section {
     #button {
         margin-left: 48%;
     }
+
+    .contact-us-message {
+        padding: 25% 0 35% 0;
+    }
+
 }
