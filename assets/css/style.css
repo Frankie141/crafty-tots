@@ -331,8 +331,8 @@ input[type=text]:focus {
     text-align: center;
 }
 
-section {
-    padding: 8% 0;
+.contact-us-message {
+    padding: 10% 0 15% 0;
 }
 
 /* Media Queries */
