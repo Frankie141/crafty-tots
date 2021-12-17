@@ -386,6 +386,26 @@ section {
         margin: auto;
     }
 
+    label {
+        margin-left: 22%;
+    }
+
+    input[type=text] {
+        width: 65%;
+        margin-left: 22%;
+        align-items: center;
+    }
+
+    #message {
+        width: 65%;
+        height: 25%;
+        margin-left: 22%;
+        align-items: center;
+    }
+
+    #button {
+        margin-left: 40%;
+    }
 
 }
 
