@@ -24,9 +24,8 @@ h1 {
 }
 
 #page-header {
-    background-color: rgb(248, 207, 248);
     height: 30vh;
-    background-position: center 75% / cover no repeat;
+    background: rgb(248, 207, 248) 75% no-repeat;
 }
 
 /* Navigation bar styling */
