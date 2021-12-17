@@ -461,4 +461,26 @@ section {
     .grid {
         grid-column-start: 2;
     }
+
+    label {
+        margin-left: 30%;
+    }
+
+    input[type=text] {
+        width: 56%;
+        margin-left: 30%;
+        align-items: center;
+        display: block;
+    }
+
+    #message {
+        width: 56%;
+        height: 22%;
+        margin-left: 30%;
+        align-items: center;
+    }
+
+    #button {
+        margin-left: 48%;
+    }
 }
