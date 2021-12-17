@@ -420,6 +420,10 @@ section {
         margin-left: 40%;
     }
 
+    .contact-us-message {
+        padding: 25% 0 100% 0;
+    }
+
 }
 
 /* For medium screens min 481px max 768px wide and down */
