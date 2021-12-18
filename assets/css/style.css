@@ -525,13 +525,11 @@ input[type=text]:focus {
         font-size: 380%;
         top: 2vh;
         bottom: 5vh;
-    }   
-    
+    }
+
     nav {
         font-size: 110%;
         position: relative;
         top: -15px;
     }
 }
-
-
