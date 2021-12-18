@@ -99,7 +99,20 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
         * Select the Master Branch. 
         * Once the master branch has been selected the link to the deployed site is provided. 
 
-The live link can be located here - [Crafty Tots](https://frankie141.github.io/crafty-tots/)        
+The live link can be located here - [Crafty Tots](https://frankie141.github.io/crafty-tots/)   
+
+## Credits 
+
+* Content
+
+    * The code for the social media links was taken from the CI Love Running Project. 
+    * Credit for Youtube videos to ABCDeeLearning and One Little Project.
+
+* Media
+
+    * The images on the Home page were taken from [Pexels](https://www.pexels.com/)
+    * Images on the crafts page were taken from [Canva](https://www.canva.com/)
+
 
 
 
