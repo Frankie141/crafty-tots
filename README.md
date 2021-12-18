@@ -85,6 +85,23 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
     * CSS 
         * No errors returned when running code through the official (Jigsaw) validator.     
 
+<img src="assets/images/Lighthouse.Testing.PNG">
+
+* Unfixed Bugs 
+
+    * No unfixed bugs.
+
+* Deployment    
+
+    * The site has been deployed to GitHub pages. The steps to deploy are as shown below: 
+        * In the GitHub repository, navigate to the Settings tab. 
+        * From the source section scroll to GitHub pages and select to open this section. 
+        * Select the Master Branch. 
+        * Once the master branch has been selected the link to the deployed site is provided. 
+
+The live link can be located here - [Crafty Tots](https://frankie141.github.io/crafty-tots/)        
+
+
 
 
 
