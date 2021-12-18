@@ -4,7 +4,7 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
 
 <img src="assets/images/Responsiveness.PNG">
 
-## Home - Features
+## Features
 
 * Header 
     * The header contains the name of the website Crafty Tots using the color red, 'Cardo' font theme and centered. 
@@ -38,9 +38,6 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
 
 <img src="assets/images/Footer.PNG" height=200>
 
-
-## Crafts - Features
-
 * Crafts 
     * Recipes with Supplies required and Instructions. 
     * Instructional Videos for Edible Playdough and Edible Sand. 
@@ -49,8 +46,6 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
     * Colors selected contrasts well with the other elements of the website. 
 
 <img src="assets/images/Craft.page.PNG" height=400>
-
-## Contact Page- Features 
 
 * Contact 
     * Purple Border around input field for first name, last name, email address and message. 
