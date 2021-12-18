@@ -44,6 +44,7 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
 * Crafts 
     * Recipes with Supplies required and Instructions. 
     * Instructional Videos for Edible Playdough and Edible Sand. 
+    * When selected the videos take the users to the Youtube to be able to watch the videos in full view. 
     * Images for Edible Paints and No-Mess Painting. 
     * Colors selected contrasts well with the other elements of the website. 
 
