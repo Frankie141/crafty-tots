@@ -45,17 +45,17 @@ nav {
 }
 
 .navigation-bar a {
-    color: forestgreen;
+    color: rgb(9, 80, 9);
     text-decoration: none;
 }
 
 .home:hover {
-    border-bottom: 2px solid forestgreen;
+    border-bottom: 2px solid rgb(9, 80, 9);
     font-style: italic;
 }
 
 .crafts:hover {
-    border-bottom: 2px solid forestgreen;
+    border-bottom: 2px solid rgb(9, 80, 9);
     font-style: italic;
 }
 
