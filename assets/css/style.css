@@ -595,3 +595,45 @@ input[type=text]:focus {
         padding: 25% 0 35% 0;
     }
 }
+
+/* For small screens width 1024px height 600px */
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+    h1 {
+        font-weight: 450;
+        font-size: 250%;
+    }
+
+    .center {
+        font-size: 260%;
+        top: 2vh;
+        bottom: 5vh;
+    }
+
+    nav {
+        font-size: 120%;
+        position: relative;
+        top: auto;
+    }
+
+    label {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    input[type=text] {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    #message {
+        width: 50%;
+        height: 22%;
+        margin: auto;
+    }
+
+    #button {
+        margin-left: 44%;
+    }
+}
+
