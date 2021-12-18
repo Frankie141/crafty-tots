@@ -514,5 +514,24 @@ input[type=text]:focus {
     }
 }
 
+/* For large screens min width 1024px and max width 1629px */
+@media screen and (min-width: 1024px) and (max-width: 1629px) {
+    h1 {
+        font-weight: 500;
+        font-size: 330%;
+    }
+
+    .center {
+        font-size: 380%;
+        top: 2vh;
+        bottom: 5vh;
+    }   
+    
+    nav {
+        font-size: 110%;
+        position: relative;
+        top: -15px;
+    }
+}
 
 
