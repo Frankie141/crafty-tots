@@ -50,8 +50,10 @@ Crafty Tots is a website created to provide parents and caregivers with some fun
 * Contact 
     * Purple Border around input field for first name, last name, email address and message. 
     * Writing in input fields resets when text is typed into boxes.
-    * Submit button is purple with write writing. 
-    * wWhen the submit button is hovered over the box is highlighted in a lighter purple and the cursor changes. 
+    * Text automatically added into input fields to indicate which box requires which information. 
+    * Text in input boxes is removed once a user starts to type and resets when the information is removed. 
+    * Submit button is purple with bold white writing. 
+    * When the submit button is hovered over the box is highlighted in a lighter purple and the cursor changes. 
     * Once form is submitted you are than redirected to a thank you page. 
 
 <img src="assets/images/Contact.Us.PNG" height=250 width=200>    
